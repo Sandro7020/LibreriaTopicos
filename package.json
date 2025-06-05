@@ -1,0 +1,21 @@
+{
+  "name": "libreria-topicos",
+  "version": "1.0.0",
+  "description": "Learning to use packages",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "build:start": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "alessandroventresc@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
